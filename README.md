@@ -1,5 +1,5 @@
 # Call-Center-Analytics
-Call center Analytics dashboard that reflects all relevant metrics and KPIs in the dataset
+Welcome to our call center analysis dashboard for the first quarter of 2021. This comprehensive project aims to evaluate the performance of our agents during their operating hours and through time. By analyzing various metrics, we gain valuable insights into agent efficiency and customer satisfaction. The dashboard provides a detailed overview of key performance indicators such as call abandonment rate, call resolution, and service limit. With this information at hand, we can identify areas for improvement, optimize agent productivity, and enhance overall customer experience. Let's dive into the data and uncover opportunities to excel in our call center operations.
 # Data Exploration:
 -	The dataset consists of 1 table, 5000 rows, and 11 columns, each row represents a single inbound call, along with its details; Call ID, Agent, Date, Time, Topic, Answered(Y/N), Resolved(Y/N), Average talk duration in seconds, Average speed of answer in seconds, and Satisfaction rating.
 -	The time range of the dataset is from 1st, Jan 2021 till 31st, Mar 2021. Operating daily from 9:00 a.m. to 6:00 p.m. 
