@@ -10,12 +10,8 @@ Welcome to our call center analysis dashboard for the first quarter of 2021. Thi
 -	Speed of answer ranges from 10 seconds to 2 minutes and 5 seconds.
 -	Average talk duration ranges from 30 seconds to 7 minutes.
 # Data Preparation
--	To use the Average talk duration and the Speed of answer in hh: mm: ss format, first we will divide them by 24 hours, 60 minutes, and 60 seconds to result in a decimal number that represents the amount of time.
--	The next step is to import the data into Power BI, transforming the Average talk duration and the Speed of answer columns into duration Power Query, and 
--	In Power BI we will use Format function on the DAX measures that are used in the card visuals.
--	To extract the hour and the weekday of each call and to allow date hierarchical drilling in our visuals, we will create a dedicated date table using CALENDAR function.
--	We’ll use SWITCH function to create two new columns, the first column classifies
- the Satisfaction ratings into three categories: positive, neutral, and negative ratings, the second column transforms the Speed of answer into duration brackets (10 seconds each).
+- To use the Average talk duration and the Speed of the answer in hh: mm: ss format, firstly, I divided them by 24 hours, 60 minutes, and 60 seconds to result in a decimal number representing the amount of time. The next step istransforming the Average talk duration and the Speed of answer columns into duration using Power Query, and then, using the Format function to the DAX measures that are used in the card visuals.
+- I utilized the SWITCH function to create two new columns, the first column classifies the Satisfaction ratings into three categories: positive, neutral, and negative ratings, and the second column transforms the Speed of the answer into duration brackets (10 seconds each).
 # Measures and KPIs: -
 -	Total number of calls.
 -	Total number of Answered calls - Total number of Abandoned calls.
